@@ -25,6 +25,7 @@ public class Entry
         using (StreamWriter outputFile = new StreamWriter(fileName, append: true))
         {
             outputFile.WriteLine($"Date: {_date}");
+            outputFile.WriteLine();
             foreach (var prompt in _prompts)
             {
                 outputFile.WriteLine($"{prompt._question}");

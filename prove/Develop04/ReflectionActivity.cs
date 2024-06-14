@@ -50,7 +50,6 @@ public class ReflectionActivity : Activity
 
             Console.WriteLine("Press any key for the next question...");
 
-            // Wait for any key press to proceed to the next question
             Console.ReadKey(true);
 
             questionIndex++;
